@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;700&display=swap');
+
+body {
+    color: #1d3557;
+    background-color: #a8dadc;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #e63946;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #457b9d;
+}
+
+a:hover {
+    color: #1d3557;
+    font-weight: bold;
+}
+
+.container {
+    width: 900px;
+    margin: 40px auto; 
+}
+
+.card {
+    background-color: #f1faee;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.img-circle {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+/*****Media Queries******/
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+}
+
+@media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+}
